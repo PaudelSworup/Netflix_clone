@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    height:0px;
+    justify-content: space-between;
+    margin: 0 20px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    transition: trasform 450ms;
+}
+
+.navblack{
+    background-color: #111;
+    height: 63px;
+    margin: 0;
+    padding: 0 20px
+}
+
+.logo > img{
+    width: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.avatar > img{
+    width: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sign_in >   button{
+   background-color: red;
+   padding: 10px 20px;
+   margin-top: 20px;
+   border: none;
+   color: #fff;
+   border-radius: 4px;
+   cursor: pointer;
+   letter-spacing: 1.5px;
+}
+
+#id1{
+    display: none;
+}
+
+@media screen and (max-width:285px) {
+    .logo > img{
+        width: 110px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .sign_in > button{
+        background-color: red;
+        padding: 8px 8px;
+        margin-top: 20px;
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        letter-spacing: 1.5px;
+     }
+}
+
