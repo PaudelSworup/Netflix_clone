@@ -5,7 +5,7 @@
 # UI of the projects
 
 <div style="display:flex;">
-<img src="../sc/1.JPG" alt="" />
+<img src="public/sc/1.JPG" alt="" />
 <img src="../sc/2.JPG" alt="" />
 <img src="../sc/3.JPG" alt="" />
 </div>
